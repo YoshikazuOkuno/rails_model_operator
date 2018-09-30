@@ -1,0 +1,1 @@
+require 'rails_model_operator/models/logging_operator_feature'
