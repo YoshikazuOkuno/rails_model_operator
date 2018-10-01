@@ -18,7 +18,10 @@ ActiveRecord::Schema.define(version: 2018_09_30_065929) do
     t.bigint "updated_by"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.datetime "deleted_at"
+    t.bigint "deleted_by"
     t.index ["created_by"], name: "index_users_on_created_by"
+    t.index ["deleted_by"], name: "index_users_on_deleted_by"
     t.index ["updated_by"], name: "index_users_on_updated_by"
   end
 
