@@ -9,14 +9,14 @@ Gem::Specification.new do |s|
   s.version     = RailsModelOperator::VERSION
   s.authors     = ["yamazaki164"]
   s.email       = ["yamazaki164@gmail.com"]
-  s.homepage    = "https://github.com/yamazaki164/rails_model_operator"
+  s.homepage    = "https://github.com/YoshikazuOkuno/rails_model_operator"
   s.summary     = "Summary of RailsModelOperator."
   s.description = "Description of RailsModelOperator."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 5.2.1"
+  s.add_dependency "rails", ">= 5.2.1"
 
   s.add_development_dependency "sqlite3"
   s.add_development_dependency "pry-rails"
